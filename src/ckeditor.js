@@ -134,6 +134,16 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:alignRight',
 			'|',
 			'imageTextAlternative'
+		],
+		styles: [
+			// This option is equal to a situation where no style is applied.
+			'full',
+
+			// This represents an image aligned to the left.
+			'alignLeft',
+
+			// This represents an image aligned to the right.
+			'alignRight'
 		]
 	},
 	table: {
